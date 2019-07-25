@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
 	"github.com/micro/go-micro/registry"
+	"github.com/nzp13dec/etcd/clientv3"
 )
 
 type etcdv3Watcher struct {
