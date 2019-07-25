@@ -15,8 +15,8 @@ import (
 	"github.com/micro/go-micro/registry"
 	"github.com/nzp13dec/etcd/clientv3"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
 	hash "github.com/mitchellh/hashstructure"
+	"github.com/nzp13dec/etcd/etcdserver/api/v3rpc/rpctypes"
 )
 
 var (
